@@ -1,0 +1,15 @@
+streamlit
+langdetect
+gtts
+pandas
+requests
+reportlab
+matplotlib
+streamlit-lottie
+groq
+streamlit-mic-recorder
+SpeechRecognition 
+pyaudio
+googletrans==4.0.0-rc1
+
+
