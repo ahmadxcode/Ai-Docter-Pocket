@@ -1,25 +1,20 @@
-# Core packages
+# Core dependencies
 streamlit>=1.25.0
+langdetect>=1.0.9
+gtts>=2.3.2
 pandas>=2.1.0
-matplotlib>=3.7.2
 requests>=2.31.0
 reportlab>=4.0.0
-langdetect>=1.0.9
-gTTS>=2.3.2
+matplotlib>=3.8.0
+streamlit-lottie>=0.0.5
 
-# Optional UI/animations
-streamlit-lottie>=0.3.0
+# Optional / comment out for deployment (may cause errors)
+# groq
+# streamlit-mic-recorder
+# SpeechRecognition
+# pyaudio
+# googletrans==4.0.0-rc1
 
-# Optional AI backend (Groq LLM)
-groq>=0.0.9   # Only if you have a Groq API key
-
-# Optional voice input
-streamlit-mic-recorder>=0.1.5
-SpeechRecognition>=3.10.0
-pyaudio>=0.2.13   # Might require portaudio installed on system first
-
-# Optional translation
-googletrans==4.0.0-rc1
 
 
 
